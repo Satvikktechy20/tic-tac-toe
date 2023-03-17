@@ -78,6 +78,7 @@ reset.addEventListener("click",()=> {
     document.getElementsByClassName("info")[0].innerText = `${turn}'s turn`;
     document.querySelector("img").style.display = "none";
     count = 0;
+      music.play();
  });
 })
 
